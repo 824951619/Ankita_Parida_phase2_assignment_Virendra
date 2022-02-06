@@ -102,4 +102,20 @@
     <servlet-name>ServletTracking1</servlet-name>
     <url-pattern>/login</url-pattern>
   </servlet-mapping>
-   </web-app>
+  <!-- JDBC_Connections_Statements_and_ResultSets --> 
+   <servlet>
+    <servlet-name>ProductDetails</servlet-name>
+    <servlet-class>ProductDetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductDetails</servlet-name>
+    <url-pattern>/list</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ProductDetails</servlet-name>
+    <servlet-class>ProductDetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductDetails</servlet-name>
+    <url-pattern>/list</url-pattern>
+  </servlet-mapping>
